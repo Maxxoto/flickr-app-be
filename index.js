@@ -12,6 +12,9 @@ require('./services/flickrService');
 const PhotoRoute = require('./routes/photoRoutes');
 
 //Additional Import
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 app.use(
   cors({
