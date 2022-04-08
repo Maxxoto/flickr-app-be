@@ -9,7 +9,7 @@ const cors = require('cors');
 require('./services/flickrService');
 
 //Routes import
-const PhotoRoute = require('./routes/photoRoutes');
+const PhotoRoute = require('./routes/imageRoutes');
 
 //Additional Import
 const dotenv = require('dotenv');

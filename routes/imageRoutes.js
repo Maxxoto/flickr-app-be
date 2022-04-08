@@ -4,7 +4,7 @@ const responseFormatter = require('../utils/responseFormatter');
 const responseTransformer = require('../utils/responseTransformer');
 
 module.exports = (app) => {
-  app.get('/api/photos', async (req, res) => {
+  app.get('/api/images', async (req, res) => {
     // Extract only tags from query string
     const tags_query = req.query.tags;
     console.log(tags_query);
